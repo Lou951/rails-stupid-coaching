@@ -13,3 +13,39 @@
  *= require_tree .
  *= require_self
  */
+
+ .card{
+  border: 1px white solid;
+  width: 500px;
+  padding: 5px;
+  box-shadow: 10px 0px lightgray inset;
+  /* border-radius: 5px; */
+  margin-left: 15px;
+ }
+
+
+ .card#coach {
+  background-color: lightgoldenrodyellow;
+ }
+
+ .tag {
+  margin-left: 15px;
+  font-style: italic;
+ }
+
+ .comment {
+  margin-left: 15px;
+ }
+
+ .ask {
+  margin-left: 15px;
+ }
+
+ #box {
+  width: 500px;
+ }
+
+ #btn {
+  background-color: navy;
+  color: white;
+ }
